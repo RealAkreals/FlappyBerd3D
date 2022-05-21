@@ -1,0 +1,43 @@
+#Download {
+  border: solid 10px black;
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+  font-family: cursive;
+}
+
+h1 {
+  font-family: cursive;
+}
+
+p {
+  font-family: cursive;
+  font-size: 25px;
+}
+
+#in1 {
+  border: solid 10px black;
+  font-size: 30px;
+  font-family: cursive;
+  border-radius: 5px;
+}
+
+#in2 {
+  border: solid 10px black;
+  font-size: 30px;
+  font-family: cursive;
+  border-radius: 5px;
+}
+
+#loggin {
+  font-family: cursive;
+  font-size: 30px;
+  border: solid 10px black;
+  border-radius: 5px;
+}
+
+a {
+  color: black;
+  font-size: 30px;
+  font-family: cursive;
+}
