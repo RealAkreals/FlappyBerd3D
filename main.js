@@ -15,9 +15,9 @@ $('document').ready(function() {
         //Админ аккаунт
         if (b == "pas") {
           document.write("Привет, " + a + "!<br/>");
-          document.write("Ты вашёл в админку!<br/>")
-          document.write("POV.Админка, ещё не полностью готова!(Int1grall lox❤️)")
-          document.write("<a href="https:\\drive.google.com\file\d\1RhEu4avs2wif5WvS8DXlmLadxu2ElFgl\view?usp=sharing">Download Beta</a>")
+          document.write("Ты вашёл в админку!<br/>");
+          document.write("POV.Админка, ещё не полностью готова!(Int1grall lox❤️)");
+          document.write("<a href="https:\\drive.google.com\file\d\1RhEu4avs2wif5WvS8DXlmLadxu2ElFgl\view?usp=sharing">Download Beta</a>");
         } else {
           alert("Такого пользователя, не существует!");
           //for (var i = 0; i < 10; i++) {
