@@ -6,9 +6,10 @@
   <title>3D Remake Game</title>
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   <script src="main.js"></script>
+  <script src="https://vk.com/js/api/openapi.js?169" type="text/javascript"></script>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body oncopy="return false;"><!--oncontextmenu="return false;"-->
   <center>
     <h1>Flappy Bird 3D</h1>
     <a id="Download" href="#">Download(0.1)</a>
@@ -38,6 +39,7 @@
     <h1>Скриншоты</h1>
     <img src="http://localhost:3000/image/%D1%81%D0%BA%D1%80%D0%B8%D0%BD1.png" height="500px" width="300px">
     <img src="http://localhost:3000/image/Flappy.png" height="500px" width="500px">
+    <!--<img src="/image/Баг.png" height="500px" width="600px">-->
     <h1>Соц сети</h1>
     <!-- Vk -->
     <a href="#" id="sow"><img src="http://localhost:3000/image/Vk.png" height="50px" width="50px"></a>
@@ -45,12 +47,33 @@
     <a href="#" id="sow"><img src="http://localhost:3000/image/Discord.jpg" height="50px" width="70px"></a>
     <!-- YouTube -->
     <a href="#" id="sow"><img src="http://localhost:3000/image/YouTube.png" height="50px" width="50px"></a>
+  <h1>О игре</h1>
+  <p>-Игра была сделана в России</p>
+  <p>-Игра сделана на Unity3D</p>
+  <p>-Офицальный сайт игры: <a href="https://realakreals.github.io/FlappyBerd3D">сайт</a></p>
+  <p>-Хостинг: GitHab</p>
+  <p>-Сайт сделан: HTML, CSS, JS(JavaScript), PHP, SQL</p>
+  <p>-Шрифт: cursive</p>
+  <p>-Размер шрифта: 30px</p>
+  <h1>Кто разробатывал игру?</h1>
+  <p>-Sss(Главный программист, редактор проекта)</p>
+  <p>-Gera(Модератор проекта)</p>
   </center>
   <center><h1>Для Администрации сайта</h1>
   <form id="loginPanel">
   <input id="in1" type="text" placeholder="Введите, свой логин"><br><br>
   <input id="in2" type="password" placeholder="Введите, свой пароль"><br><br>
-  <button id="loggin">Войти в Админ акккаунт</button></center>
-  </form>
+  <button id="loggin">Войти в Админ акккаунт</button>
+</form>
+<h1>Комментарии:</h1>
+
+<div id="vk_comments"></div>
+<script type="text/javascript">
+    window.onload = function () {
+     VK.init({apiId: 8173220, onlyWidgets: true});
+     VK.Widgets.Comments('vk_comments', {width: 900, limit: 15}, 321);
+    }
+</script>
+  
 </body>
 </html>
